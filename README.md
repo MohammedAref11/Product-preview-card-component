@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Solution URL [Click Here](https://mohammedaref11.github.io/Product-preview-card-component/) (Still didn't finish the challenge)
+Solution URL [Click Here](https://mohammedaref11.github.io/Product-preview-card-component/) 
 
 Challenge URL [Click Here](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
