@@ -4,9 +4,11 @@
 
 ## Welcome! 👋
 
-Solution URL [Click Here]()
+Solution URL [Click Here]() (Still didn't finish the challenge)
 
 Challenge URL [Click Here](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+
+
 
 
 
