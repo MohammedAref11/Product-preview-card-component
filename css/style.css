@@ -177,7 +177,7 @@ body {
 
     .product-card__container { 
         flex-direction: row;
-        max-width: 700px; 
+        max-width: 650px; 
     }
 
     .product-card__image-desktop { 
@@ -191,7 +191,6 @@ body {
 
     .product-card__text-container { 
         max-width: 50%;
-        gap: 1em;
         justify-content: space-evenly;
     }
     
