@@ -130,7 +130,7 @@ body {
 .product-card__description { 
     line-height: 1.5;
     color: var(--Grey); 
-    font-size: clamp(0.90rem, 0.98rem + 4vw, 1.0rem);
+    font-size: clamp(0.90rem, 0.85rem + 0.5vw, 1.0rem);
 }
 
 .product-card__price { 
@@ -150,22 +150,21 @@ body {
     color: var(--Grey);
 }
 
-.product-card__cta { 
+.product-card__cta {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
     text-decoration: none;
-    text-align: center;
     background-color: var(--Green-500);
     padding: 1em 2em;
     color: var(--White);
     font-weight: 700;
     border-radius: 8px;
-    position: relative;
     transition: 0.3s all ease;
 }
 
 .product-card__cta::before { 
-    position: absolute;
     content: url(../images/icon-cart.svg);
-    left: 20%;
 }
 
 .product-card__cta:hover { 
