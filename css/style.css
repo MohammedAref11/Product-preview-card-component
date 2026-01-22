@@ -117,7 +117,7 @@ body {
 
 .product-card__title { 
     font-family: "Fraunces", serif;
-    font-size: clamp(0.80rem, 1.3rem + 1.5vw, 2.5rem);
+    font-size: clamp(0.80rem, 1.2rem + 1.5vw, 2.5rem);
     line-height: 1.1;
     color: hsl(212, 21%, 14%); 
 }
@@ -175,7 +175,7 @@ body {
         flex-direction: row;
         max-width: 650px; 
     }
-    
+
     .product-card__image { 
     border-radius: 10px 0px 0 10px; 
     }
