@@ -21,26 +21,27 @@
 <body>
 
 
-  <div class="product-card__container">
-      <div class="product-card__image-container">
-        <img src="./images/image-product-mobile.jpg" alt="Channel perfume" class="product-card__image-mobile">
-        <img src="./images/image-product-desktop.jpg" alt="" class="product-card__image-desktop">
-      </div>
-      <div class="product-card__text-container">
-        <p class="product-card__tag">Perfume</p>
-        <h1 class="product-card__title">Gabrielle Essence Eau De Parfum</h1>
-        <p class="product-card__description">
-          A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="product-card__price">
-          <span class="product-card__price--after">$149.99</span>
-          <span class="product-card__price--before">$169.99</span>
+  <main class="product-card">
+    <article class="product-card__container">
+      <picture>
+        <source media="(min-width:700px)" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="Chanel Perfume with a grass on the background" class="product-card__image">
+      </picture>
+        <div class="product-card__text-container">
+          <p class="product-card__tag">Perfume</p>
+          <h1 class="product-card__title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="product-card__description">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="product-card__price">
+            <span class="product-card__price--after">$149.99</span>
+            <span class="product-card__price--before">$169.99</span>
+          </div>
+          <a href="#" class="product-card__cta">Add to Cart</a>
         </div>
-        <a href="#" class="product-card__cta">Add to Cart</a>
-      </div>
-  </div>
-  
+      </article>
+  </main>
   
 
 </body>

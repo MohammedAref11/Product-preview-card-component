@@ -94,12 +94,8 @@ body {
     max-width: 375px; 
 }
 
-.product-card__image-mobile { 
-    border-radius: 10px 10px 0 0 ;
-}
-
-.product-card__image-desktop { 
-    display: none;
+.product-card__image { 
+    border-radius: 10px 10px 0 0; 
 }
 
 .product-card__text-container { 
@@ -179,14 +175,9 @@ body {
         flex-direction: row;
         max-width: 650px; 
     }
-
-    .product-card__image-desktop { 
-        display: block;
-        border-radius: 10px 0 0px 10px; 
-    }
-
-    .product-card__image-mobile { 
-        display: none;
+    
+    .product-card__image { 
+    border-radius: 10px 0px 0 10px; 
     }
 
     .product-card__text-container { 
